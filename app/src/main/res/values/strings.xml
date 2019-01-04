@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UG Food</string>
+
+    <string name="welcome">Kami memudahkan anda untuk menjelajahi kuliner di sekitaran kampus Gunadarma.</string>
+    <string name="title_activity_kampus">kampus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home2">home2</string>
+</resources>

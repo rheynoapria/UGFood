@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "876764115151",
+    "firebase_url": "https://ug-food.firebaseio.com",
+    "project_id": "ug-food",
+    "storage_bucket": "ug-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876764115151:android:b93b6fa895e31fc3",
+        "android_client_info": {
+          "package_name": "com.ganbatee.ugfood.ugfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876764115151-usf00u5pjbgdr9k89hir6g5k1u8g62kt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ganbatee.ugfood.ugfood",
+            "certificate_hash": "7d1956c4c1c85088d3e35bf94f9b9025206f0618"
+          }
+        },
+        {
+          "client_id": "876764115151-sslffmpuelou7faru2oa849n3c9glpdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWd66XDL1MiuZbw-hB4w-g4Py-zUsnGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876764115151-sslffmpuelou7faru2oa849n3c9glpdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

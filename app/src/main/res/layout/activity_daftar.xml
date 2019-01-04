@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ganbatee.ugfood.ugfood.daftar"
+    android:background="@drawable/bg_4"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    >
+    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="48dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtPhone_daftar"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:hint="Nomor Telepon"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:drawablePadding="12dp"
+        android:inputType="phone"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="13"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:layout_marginRight="8dp"
+         />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtName_daftar"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:hint="Nama"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:drawablePadding="12dp"
+        android:inputType="text"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="20"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtPassword_daftar"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:maxLines="1"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:drawablePadding="12dp"
+        android:inputType="textPassword"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="12"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+
+        />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:text="Daftar"
+        android:textColor="@android:color/white"
+        app:shadowColor="@android:color/black"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        app:cornerRadius="50dp"
+        app:buttonColor="@color/btnSignIn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        />
+            </RelativeLayout>
+        </LinearLayout>
+
+</LinearLayout>

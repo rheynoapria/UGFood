@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_8"
+    android:padding="16dp"
+    tools:context="com.ganbatee.ugfood.ugfood.Cart">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listCart"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/colorPrimary">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:text="Total : "
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:text="Rp 1000 "
+                    android:textSize="24sp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnPlaceOrder"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Pesan Sekarang"
+                android:textColor="@color/btnSignIn"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp"
+                app:buttonColor="@android:color/background_light"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+
+
+                />
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnCancelOrder"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hapus Pesanan"
+                android:textColor="@android:color/holo_red_dark"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp"
+                app:buttonColor="@android:color/background_light"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+
+
+                />
+
+        </RelativeLayout>
+        
+        
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
